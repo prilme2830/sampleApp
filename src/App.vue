@@ -1,9 +1,13 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Sample from './components/Sample.vue'
-</script>
-
 <template>
-  <HelloWorld />
-  <Sample/>
+  <MyComponent/>
 </template>
+
+<script>
+import MyComponent from './components/MyComponent.vue'
+
+export default {
+  components: {
+    MyComponent
+  }
+}
+</script>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>This is Lanceeee</h1>
+        <h1>This is lancee Vue.js Component</h1>
     </div>
 </template>
 
